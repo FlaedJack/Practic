@@ -5,7 +5,8 @@ bool passOrFail()
 	static int passes{ 3 };
 	return (--passes >= 0);
 
-	}
+}
+
 int main()
 {
 	std::cout << "User #1: " << (passOrFail() ? "Pass" : "Fail") << '\n';
