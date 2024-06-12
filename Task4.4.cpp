@@ -29,3 +29,8 @@ int main() {
 
     return 0;
 }
+
+// файл Header.h
+#pragma
+constexpr double speedfall{ 9.8 };
+
