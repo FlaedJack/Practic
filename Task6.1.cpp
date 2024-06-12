@@ -6,7 +6,8 @@ int main()
 	int num{};
 	std::cin >> num;
 
-	if (num < 0) {
+	if (num < 0)
+	{
 		std::cout << "Negative number entered.  Making positive.\n";
 		num = -num;
 	}
